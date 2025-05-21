@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    gap: 120px;
+}
+.textContainer{
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    gap: 2rem;
+    margin-top: 6rem;
+
+}
+.title{
+    font-size: 3rem;
+    color: white;
+}
+.description{
+    font-size: 1.5rem;
+    color: white;
+}
+.buttons{
+    display: flex;
+    gap: 1rem;
+}
+.button{
+    padding: 1rem;
+    min-width: 1.5rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.button:first-child{
+    background-color: var(--textSoft);
+    color: var(--text);
+}
+/* .brandsImg{
+    width:500px;
+    height: 40rem;
+    position: relative;
+    filter:grayscale(1)
+} */
+.imgContainer{
+    position: relative;
+    flex: 1;
+}
+.heroImg{
+    border-radius: 7px;
+}

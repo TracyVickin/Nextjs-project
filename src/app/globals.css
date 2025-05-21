@@ -1,7 +1,8 @@
 :root{
-  --bg: silver;
+  --bg: #272a308c;
   --bgSoft: gray;
-  --text: black;
+  --text: white;
+  --textSoft:#deb71d;
   --btn: #deb71d;
 }
 
@@ -20,8 +21,8 @@ a{
 }
 
 .container{
-  background-color: #ddeebb;
-  width: 60rem;
+  background-color: #313c52;
+  width: 80rem;
   margin: auto;
   padding-left: 10rem;
   padding-right: 10rem;
